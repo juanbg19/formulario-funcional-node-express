@@ -4,7 +4,7 @@ let conexion = mysql.createConnection({
     host: 'localhost',
     user: 'root',
     password: '',
-    database: 'formulario'
+    database: 'formulario' //poner el nombre de la base que se va a usar
 })
 
 conexion.connect(function(error){
